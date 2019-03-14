@@ -16,6 +16,8 @@ public class Kinematic
     /// <code>
     /// t^2 * (a_b - a_a) + t * (2 * u_b - 2 * u_a) - 2 * h = 0
     /// </code>
+    /// This code is based on the following video:
+    /// https://www.youtube.com/watch?v=v1V3T5BPd7E
     /// </summary>
     /// <returns>The collision time.</returns>
     /// <param name="x_a">X position a (right object).</param>
